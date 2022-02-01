@@ -41,6 +41,11 @@ Deploying Flask app on aws with mysql
    1. Search for **Elastic Beanstalk**
    2. Click on Application -> **Create new Application**
    3. Give **Application Name** and **Description** and click on **create**.
+
+
+![This is an image](https://github.com/vinayak1809/flaskapp-on-aws-Elastic-Beanstalk--with-mysql/blob/master/image/application%20name.png)
+
+
  
  # Step 3 : Create Environment
  
@@ -48,9 +53,26 @@ Deploying Flask app on aws with mysql
   2. Select **Web server Environment**.
   3. Select application name that you gave before.
   4. Give **Enviroment name**. 
-  5. Select Platform as **Managed platform**
-  6. Select upload your code and upload your zip file of your code.
-  7. Click on Create Environment(it will take few minutes too create enviroment).
-  8. How zip file should be.
+ 
+  6. Select Platform as **Managed platform**
+
+
+![This is an image](https://github.com/vinayak1809/flaskapp-on-aws-Elastic-Beanstalk--with-mysql/blob/master/image/selectplatform.png)
+
+
+  8. Select upload your code and upload your zip file of your code.
+
+
+![This is an image](https://github.com/vinayak1809/flaskapp-on-aws-Elastic-Beanstalk--with-mysql/blob/master/image/file%20upload.png)
+
+
+  9. Click on Create Environment(it will take few minutes too create enviroment).
+  10.if helath is good your app is successfully deployed on aws
+  
+
+![This is an image](https://github.com/vinayak1809/flaskapp-on-aws-Elastic-Beanstalk--with-mysql/blob/master/image/health.png)
+
+  
+  11.  How zip file should be.
     
   
