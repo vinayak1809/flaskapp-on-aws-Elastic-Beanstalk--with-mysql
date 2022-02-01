@@ -6,13 +6,16 @@ Deploying Flask app on aws with mysql
 
   1. Search **RDS** and click on **Create Database**.
   2. Choose Database creation method as **Standard Create** and Engine options as **MySQL**
-  3. Select Edition as **MySQL Community** and Version as per your choice Version **MySQL 8.0.27**
-  4. Select Templates as **Free tier** if you are not using any paying to aws to host a database.
-  5. Give Database **instance name,username** and **password**.
-  6. leave other settings as it is just give public access **YES**
-  7. then click on **create Database**.
-  8. Wait for some minutes unit database gets created.
-  9. Then Click on **Database** -> Click on **Configuaration** -> **Inbound rules** -> Edit **inbound rules** and edit as below .
+  
+![This is an image](https://github.com/vinayak1809/flaskapp-on-aws-Elastic-Beanstalk--with-mysql/blob/master/image/engine%201.png)
+
+  4. Select Edition as **MySQL Community** and Version as per your choice Version **MySQL 8.0.27**
+  5. Select Templates as **Free tier** if you are not using any paying to aws to host a database.
+  6. Give Database **instance name,username** and **password**.
+  7. leave other settings as it is just give public access **YES**
+  8. then click on **create Database**.
+  9. Wait for some minutes unit database gets created.
+  10. Then Click on **Database** -> Click on **Configuaration** -> **Inbound rules** -> Edit **inbound rules** and edit as below .
   
 
  # Step 2 : Create Application 
