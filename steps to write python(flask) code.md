@@ -38,7 +38,7 @@ pip freeze > requirements.txt
 (This files gets created by itself if project(python code) is deployed from terminal)
 
 **.elasticbeanstalk** file
-'''python
+```python 
 branch-defaults:
   default:
     environment: environment name
@@ -60,14 +60,14 @@ global:
   repository: aws-app
   sc: git
   workspace_type: Application
-'''
+```
 
 **.gitgnore** file
-'''python
+```python 
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
-'''
+```
 
 
 
