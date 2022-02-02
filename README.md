@@ -75,4 +75,12 @@ Deploying Flask app on aws with mysql
   
   11.  How zip file should be.
     
+```bash
+projectt
+├── application.py
+├── template
+│   ├── page.html
+│   └── sign_up.html
+└── virt
+```
   
