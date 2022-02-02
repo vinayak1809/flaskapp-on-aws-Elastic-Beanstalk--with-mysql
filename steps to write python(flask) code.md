@@ -14,15 +14,15 @@ pip install flask
 pip install mysql-connector-python
 ```
   3. create application file and template folder
-```python
+```bash
 touch application.py
 ```
  
-```python
+```bash
 mkdir template
 touch application.py
 ```
-```python
+```bash
 cd template
 touch sign_up.html
 touch page.html
@@ -38,7 +38,7 @@ pip freeze > requirements.txt
 (This files gets created by itself if project(python code) is deployed from terminal)
 
 **.elasticbeanstalk** file
-```python 
+```bash 
 branch-defaults:
   default:
     environment: environment name
@@ -63,7 +63,7 @@ global:
 ```
 
 **.gitgnore** file
-```python 
+```bash 
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
