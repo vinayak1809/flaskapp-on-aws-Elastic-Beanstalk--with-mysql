@@ -1,13 +1,13 @@
 
 #steps to write python code.
   1. open terminal and Follow this commands
-```python
+```bash
 mkdir project
 cd project
 ```
   2. Create virtual enviroment and download required dependencies.
 
-```python
+```bash
 virtualenv virt
 source virt/bin/activate
 pip install flask
