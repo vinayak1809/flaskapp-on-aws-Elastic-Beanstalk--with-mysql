@@ -33,4 +33,41 @@ touch page.html
 pip freeze > requirements.txt 
 ```
 
+  5. Create .ebignore file and paste your environement there and save this file.
+  6. Two more files should be created i.e. **.elasticbeanstalk and .gitgnore**.
+(This files gets created by itself if project(python code) is deployed from terminal)
+
+**.elasticbeanstalk** file
+'''python
+branch-defaults:
+  default:
+    environment: environment name
+environment-defaults:
+  environment name-env:
+    branch: null
+    repository: null
+global:
+  application_name: application name
+  branch: branch name
+  default_ec2_keyname: null
+  default_platform: Python 3.8 running on 64bit Amazon Linux 2
+  default_region: ap-south-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: aws-app
+  sc: git
+  workspace_type: Application
+'''
+
+**.gitgnore** file
+'''python
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+'''
+
+
 
