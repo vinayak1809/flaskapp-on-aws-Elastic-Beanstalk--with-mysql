@@ -19,15 +19,15 @@ Deploying Flask app on aws with mysql
 ![Instance](https://github.com/vinayak1809/flaskapp-on-aws-Elastic-Beanstalk--with-mysql/blob/master/image/instance.png)
 
 
-  8. leave other settings as it is just give public access **YES**
+  8. Leave other settings as it is just give public access **YES**
 
 
 ![Public Access](https://github.com/vinayak1809/flaskapp-on-aws-Elastic-Beanstalk--with-mysql/blob/master/image/public%20access.png)
 
 
-  10. then click on **create Database**.
+  10. Then click on **create Database**.
   11. Wait for some minutes unit database gets created.
-  12. Then Click on **Database** -> Click on **Configuaration** -> **Inbound rules** -> Edit **inbound rules** and edit as below .
+  12. Then Click on **Database** -> Click on **Configuaration** -> **Inbound rules** -> Edit **inbound rules** and edit as below.
 
 
 ![Inbound Rules](https://github.com/vinayak1809/flaskapp-on-aws-Elastic-Beanstalk--with-mysql/blob/master/image/inbound.png)
@@ -67,7 +67,7 @@ Deploying Flask app on aws with mysql
 
 
   9. Click on Create Environment(it will take few minutes too create enviroment).
-  10.if helath is good your app is successfully deployed on aws
+  10. If health is Ok of the app, then the project is successfully deployed on AWS.
   
 
 ![Health](https://github.com/vinayak1809/flaskapp-on-aws-Elastic-Beanstalk--with-mysql/blob/master/image/health.png)
